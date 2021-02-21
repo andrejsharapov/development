@@ -6,6 +6,7 @@
 - [Nuxt](#nuxt)
 - [Vite](#vite)
 - [Vue CLI](#vue-cli)
+- [VuePress](#vuepress)
 
 ## Gulp
 
@@ -101,7 +102,26 @@ vue create vue-cli-project && cd vue-cli-project && yarn serve
 
 [More info][vue-cli]
 
+## VuePress
+
+### Creating
+
+```shell
+yarn create vuepress-project
+# or
+npx create-vuepress-site vuepress-project
+```
+
+#### Path with Yarn
+
+```shell
+yarn create vuepress-project && cd vuepress-project/docs/ && yarn install && yarn dev
+```
+
+[More info][vuepress]
+
 [gulp]: https://gulpjs.com/docs/en/getting-started/quick-start
 [nuxt]: https://ru.nuxtjs.org/docs/2.x/get-started/installation
 [vite]: https://vitejs.dev/guide/#scaffolding-your-first-vite-project
 [vue-cli]: https://cli.vuejs.org/guide/installation.html
+[vuepress]: https://vuepress.vuejs.org/guide/getting-started.html#quick-start

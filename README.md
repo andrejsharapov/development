@@ -4,11 +4,30 @@ It's very easy to create a project! Just choose the solution you want. If you ne
 
 ## Content
 
+- [Grunt](#grunt)
 - [Gulp](#gulp)
 - [Nuxt](#nuxt)
 - [Vite](#vite)
 - [Vue CLI](#vue-cli)
 - [VuePress](#vuepress)
+
+## Grunt
+
+### Installation
+
+```shell
+npm install -g grunt-cli
+```
+
+### Creating
+
+#### Path with NPM
+
+```shell
+npx mkdirp grunt-project && cd grunt-project && npm init && npm install -D grunt
+```
+
+[More info][grunt]
 
 ## Gulp
 
@@ -21,7 +40,7 @@ npm install --global gulp-cli
 ### Creating
 
 ```shell
-npx mkdirp gulp-project && cd gulp-project && npm init && npm install --save-dev gulp
+npx mkdirp gulp-project && cd gulp-project && npm init && npm install -D gulp
 ```
 
 [More info][gulp]
@@ -124,6 +143,7 @@ yarn create vuepress-project && cd vuepress-project/docs/ && yarn install && yar
 
 <p align="right"><a href="#content">To top</a></p>
 
+[grunt]: https://gruntjs.com/getting-started
 [gulp]: https://gulpjs.com/docs/en/getting-started/quick-start
 [nuxt]: https://ru.nuxtjs.org/docs/2.x/get-started/installation
 [vite]: https://vitejs.dev/guide/#scaffolding-your-first-vite-project

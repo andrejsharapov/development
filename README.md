@@ -5,6 +5,7 @@
 - [Gulp](#gulp)
 - [Nuxt](#nuxt)
 - [Vite](#vite)
+- [Vue CLI](#vue-cli)
 
 ## Gulp
 
@@ -68,6 +69,39 @@ yarn create @vitejs/app vite-project && cd vite-project && yarn install && yarn 
 
 [More info][vite]
 
+## Vue CLI
+
+### Installation
+
+```bash
+npm install -g @vue/cli
+# or
+yarn global add @vue/cli
+```
+
+### Upgrading
+
+```bash
+npm update -g @vue/cli
+# or
+yarn global upgrade --latest @vue/cli
+```
+
+### Create project
+
+```shell
+vue create vue-cli-project
+```
+
+#### Path with Yarn
+
+```shell
+vue create vue-cli-project && cd vue-cli-project && yarn serve
+```
+
+[More info][vue-cli]
+
 [gulp]: https://gulpjs.com/docs/en/getting-started/quick-start
 [nuxt]: https://ru.nuxtjs.org/docs/2.x/get-started/installation
 [vite]: https://vitejs.dev/guide/#scaffolding-your-first-vite-project
+[vue-cli]: https://cli.vuejs.org/guide/installation.html

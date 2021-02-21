@@ -1,0 +1,14 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

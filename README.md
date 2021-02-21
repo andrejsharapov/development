@@ -47,5 +47,7 @@ cd nuxt-project && npm run dev
 yarn create nuxt-app nuxt-project && cd nuxt-project && yarn dev
 ```
 
+[More info][nuxt]
+
 [gulp]: https://gulpjs.com/docs/en/getting-started/quick-start
 [nuxt]: https://ru.nuxtjs.org/docs/2.x/get-started/installation

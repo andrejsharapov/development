@@ -1,4 +1,6 @@
-# Development
+# Build a project from scratch
+
+It's very easy to create a project! Just choose the solution you want. If you need to **create a project from scratch** follow the instructions below.
 
 ## Content
 

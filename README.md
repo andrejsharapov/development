@@ -2,7 +2,7 @@
 
 ## Content
 
-- [gulp]
+- [Gulp](#gulp)
 
 ## Gulp
 
@@ -19,3 +19,5 @@ npx mkdirp gulp-project && cd gulp-project && npm init && npm install --save-dev
 ```
 
 [More info][gulp]
+
+[gulp]: https://gulpjs.com/docs/en/getting-started/quick-start

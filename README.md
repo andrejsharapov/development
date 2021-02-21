@@ -4,6 +4,7 @@
 
 - [Gulp](#gulp)
 - [Nuxt](#nuxt)
+- [Vite](#vite)
 
 ## Gulp
 
@@ -49,5 +50,24 @@ yarn create nuxt-app nuxt-project && cd nuxt-project && yarn dev
 
 [More info][nuxt]
 
+## Vite
+
+### Creating
+
+```shell
+npm init @vitejs/app vite-project
+# or
+yarn create @vitejs/app vite-project
+```
+
+### Path Vite + Vue 3 with Yarn
+
+```bash
+yarn create @vitejs/app vite-project && cd vite-project && yarn install && yarn dev
+```
+
+[More info][vite]
+
 [gulp]: https://gulpjs.com/docs/en/getting-started/quick-start
 [nuxt]: https://ru.nuxtjs.org/docs/2.x/get-started/installation
+[vite]: https://vitejs.dev/guide/#scaffolding-your-first-vite-project

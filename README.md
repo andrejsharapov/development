@@ -120,6 +120,8 @@ yarn create vuepress-project && cd vuepress-project/docs/ && yarn install && yar
 
 [More info][vuepress]
 
+<p align="right"><a href="#content">To top</a></p>
+
 [gulp]: https://gulpjs.com/docs/en/getting-started/quick-start
 [nuxt]: https://ru.nuxtjs.org/docs/2.x/get-started/installation
 [vite]: https://vitejs.dev/guide/#scaffolding-your-first-vite-project
